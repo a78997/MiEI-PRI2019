@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Bruno/Desktop/MIEI/4ano/PLC/PRI/TPCs/T2/pr.dtd">
+<pr>
+    <header>
+        <key-name>PRI_MiEI_T2</key-name>
+        <title>Trabalho 2 de PRI</title>
+        <begin-date>30 de setembro de 2019</begin-date>
+        <end-date>7 de outubro de 2019</end-date>
+        <supervisor>José Carlos Ramalho</supervisor>
+    </header>
+    <workteam>
+        <member>
+            <id>A78997</id>
+            <name>Bruno Sousa</name>
+            <email>a78997@alunos.uminho.pt</email>
+        </member>
+    </workteam>
+    <abstract>
+        <paragraph>Este segundo trabalho consiste na elaboração de um DTD para o manifesto que será usado ao longo do ano e 
+        na elaboração do presente documento XML, com base no DTD referido anteriormente.</paragraph>
+        <paragraph>Temos ainda que elaborar algumas querys em XPath para responder às questões das fichas propostas pelo professor.</paragraph>
+    </abstract>
+    <deliverables>
+        <link>Exemplo de manifesto - http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/PR.htm</link>
+        <link>Querys sobre agenda - http://www4.di.uminho.pt/~jcr/XML/CURSOS/PED2008/fichas/ficha3/e5.html</link>
+        <link>Querys sobre arqueossítios - http://www4.di.uminho.pt/~jcr/XML/CURSOS/PED2008/fichas/ficha3/e6.html</link>
+        <link>Dataset da agenda - http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/agenda.xml</link>
+        <link>Dataset dos arqueossítios - http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/arq.xml</link>
+    </deliverables>
+</pr>

@@ -1,0 +1,6 @@
+Agenda de contactos
+a)//telefone[starts-with(.,'253')]
+b)//telefone[not(starts-with(.,'253'))]
+c)//nome[contains(.,"José") or contains(.,"Maria")]
+d)//grupo/entrada[@id]
+e)//entrada[not(@tipo='pessoa')]

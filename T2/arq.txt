@@ -1,0 +1,6 @@
+Arqueossítios
+a)//IDENTI [../CONCEL[contains(.,'Amares')]]
+b)//CONCEL[../TIPO/@ASSUNTO ="arqueossitio" ]
+c)//DESCRI[../CONCEL[contains(.,'Montalegre')] ]
+d)count(//ARQELEM/CONCEL[contains(.,'Amares')])
+e)//IDENTI[..//LIGA/@TERMO='castro']   
