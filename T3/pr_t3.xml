@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Bruno/Desktop/MIEI/4ano/PLC/PRI/TPCs/T3/pr.dtd">
+<pr>
+    <meta>
+        <keyname>PRI-201920-T3</keyname>
+        <title>TPC nº3 de PRI</title>
+        <subtitle>Stylesheet's para gerar páginas HTML</subtitle>
+        <bdate>7 de Outubro de 2019</bdate>
+        <edate>21 de Outubro de 2019</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage></homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A78997</identifier>
+            <name>Bruno José Infante de Sousa</name>
+            <email>a78997@alunos.uminho.pt</email>
+            <photo path="C:\Users\Bruno\Desktop\MIEI\4ano\PLC\PRI\TPCs\T3\foto.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>Este terceiro trabalho prático consiste em aplicar os conhecimentos adquiridos no decorrer das aulas da UC para criar dois ficheiros '.xsl'.
+        O primeiro origina uma página html para este Project Record e o segundo, a partir do ficheiro '.xml' dos Arqueossítios, gera uma página 'index.html' 
+        com o índice de todos os arqueossítios e, para cada arqueossítio, gera a sua própria página html com a informação relativa a ele próprio.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./pr.html">Página HTML - Manifesto</deliverable>
+        <deliverable path="./pr.dtd">Ficheiro DTD - Manifesto</deliverable>
+        <deliverable path="./pr.xsl">Stylesheet - Manifesto</deliverable>
+        <deliverable path="./pr_t3.xml">Documento XML - Manifesto</deliverable>
+        <deliverable path="./website/index.html">Página HTML - Índice dos Arqueossítios</deliverable>
+        <deliverable path="./arq.xml">Dataset dos Arqueossítios (XML)</deliverable>
+    </deliverables>
+</pr>
