@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Bruno/Desktop/MIEI/4ano/PLC/PRI/TPCs/T3/pr.dtd">
+<pr>
+    <meta>
+        <keyname>PRI-201920-T3</keyname>
+        <title>TPC nº4 de PRI</title>
+        <subtitle>Servidor e Stylesheet</subtitle>
+        <bdate>21 de Outubro de 2019</bdate>
+        <edate>28 de Outubro de 2019</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage></homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A78997</identifier>
+            <name>Bruno José Infante de Sousa</name>
+            <email>a78997@alunos.uminho.pt</email>
+            <photo path="C:\Users\Bruno\Desktop\MIEI\4ano\PLC\PRI\TPCs\T4\foto.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>No trabalho prático nº4, o primeiro objetivo passou por criar uma <i>stylesheet</i> para, a partir do <i>dataset</i> do Arquivo Sonoro, gerar páginas xml individuais para cada documento.
+        Estas páginas foram nomeadas com docX.html, onde X representa um id atribuído ao documento, que irá ser usado no servidor.</p>
+        <p>Após gerar essas páginas, foi pedido para gerar um xsl(<i>doc2html.xsl</i>) para converter os ficheiros xml de cada documento em páginas html.</p>
+        <p>Após criar essa <i>stylesheet</i> passamos para a criação do servidor em <i>Node.js</i>.</p>
+        <p>Este servidor recebe pedidos de <i>GET</i> em "/musica/X", e abre uma página HTML com o ficheiro <i>docX.xml</i> já convertido em HTML.
+        Todos os outros pedidos são ignorados pelo servidor, apresentando apenas uma mensagem de erro.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./pr.html">Página HTML - Manifesto</deliverable>
+        <deliverable path="./pr.dtd">Ficheiro DTD - Manifesto</deliverable>
+        <deliverable path="./pr.xsl">Stylesheet - Manifesto</deliverable>
+        <deliverable path="./pr_t4.xml">Documento XML - Manifesto</deliverable>
+        <deliverable path="./arq-son-EVO.xml">Dataset do Arquivo Sonoro (XML)</deliverable>
+    </deliverables>
+</pr>

@@ -1,0 +1,13 @@
+{
+  "name": "arquivosonoro",
+  "version": "1.0.0",
+  "description": "Gestão do Arquivo Sonoro",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "BSousa",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
