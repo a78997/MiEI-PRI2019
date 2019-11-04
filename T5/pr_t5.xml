@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Bruno/Desktop/MIEI/4ano/PLC/PRI/TPCs/T3/pr.dtd">
+<pr>
+    <meta>
+        <keyname>PRI-201920-T5</keyname>
+        <title>TPC nº5 de PRI</title>
+        <subtitle>Servidor para Gestão de Alunos</subtitle>
+        <bdate>28 de Outubro de 2019</bdate>
+        <edate>4 de Novembro de 2019</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage></homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A78997</identifier>
+            <name>Bruno José Infante de Sousa</name>
+            <email>a78997@alunos.uminho.pt</email>
+            <photo path="C:\Users\Bruno\Desktop\MIEI\4ano\PLC\PRI\TPCs\T5\foto.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>No quinto trabalho prático da UC, foi-nos pedida a criação de um servidor capaz de gerir uma lista de alunos e as notas atribuídas a cada um.</p>
+        <p>Esse servidor tem que ser capaz de responder a dois pedidos de <i>GET</i>, um em <i>/alunos</i> e outro em <i>/alunos/:idAluno</i>. Dois pedidos
+        de <i>POST</i>, um em <i>/alunos</i> (adicionar um aluno) e outro em <i>/alunos/:idAluno/notas</i> (adicionar uma nota a um aluno). E ainda, dois pedidos
+        de <i>DELETE</i>, o primeiro em <i>/alunos/:idAluno</i> (remover um aluno) e o segundo em <i>/alunos/:idAluno/notas/:indicador</i> (remover uma nota).</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./pr.html">Página HTML - Manifesto</deliverable>
+        <deliverable path="./pr.dtd">Ficheiro DTD - Manifesto</deliverable>
+        <deliverable path="./pr.xsl">Stylesheet - Manifesto</deliverable>
+        <deliverable path="./pr_t5.xml">Documento XML - Manifesto</deliverable>
+    </deliverables>
+</pr>
