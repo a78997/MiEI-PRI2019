@@ -1,0 +1,23 @@
+extends layout
+block content
+    .w3-container
+            header.w3-container
+                h1= filme.title
+                h2= filme.year
+            .w3-container
+                table.w3-table-all
+                    tr.w3-container
+                        th Atores:
+                    each ator in filme.cast
+                        tr.w3-container
+                            td= ator
+            .w3-container
+                table.w3-table-all
+                    tr.w3-container
+                        th Géneros:
+                    each genero in filme.genres
+                        tr.w3-container
+                            td= genero
+
+            footer.w3-container
+                    a(href='/filmes')  Voltar á página inicial

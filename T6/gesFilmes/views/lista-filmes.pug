@@ -1,0 +1,19 @@
+extends layout
+
+block content
+    .w3-container
+      h1 Lista de Filmes
+      table.w3-table-all
+        tr  
+            th Título    
+            th Ano
+            th Página do Filme
+        each filme in lista
+            tr
+                td= filme.title
+                td= filme.year
+                td
+                    form.w3-container(action=`/filmes/${filme._id}` method='GET')
+                                    input.w3-btn.w3-border(type='submit' value='Página do Filme')
+    footer.w3-container 
+        a(href='/') Página Inicial

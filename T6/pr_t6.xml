@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Bruno/Desktop/MIEI/4ano/PLC/PRI/TPCs/T6/pr.dtd">
+<pr>
+    <meta>
+        <keyname>PRI-201920-T6</keyname>
+        <title>TPC nº6 de PRI</title>
+        <subtitle>Servidor para Gestão de Filmes</subtitle>
+        <bdate>4 de Novembro de 2019</bdate>
+        <edate>11 de Novembro de 2019</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage></homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A78997</identifier>
+            <name>Bruno José Infante de Sousa</name>
+            <email>a78997@alunos.uminho.pt</email>
+            <photo path="C:\Users\Bruno\Desktop\MIEI\4ano\PLC\PRI\TPCs\T6\foto.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>O objetivo do sexto trabalho prático de PRI era a criação de um servidor para interagir com uma base de dados em <i>Mongo</i> e que fosse capaz 
+        listar, adicionar ou remover informações dessa base de dados.</p>
+        <p>A base de dados disponibilizada para esta resolução contém informações acerca do título, ano de realização, actores e géneros de mais de 25 mil filmes.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./pr.html">Página HTML - Manifesto</deliverable>
+        <deliverable path="./pr.dtd">Ficheiro DTD - Manifesto</deliverable>
+        <deliverable path="./pr.xsl">Stylesheet - Manifesto</deliverable>
+        <deliverable path="./pr_t5.xml">Documento XML - Manifesto</deliverable>
+    </deliverables>
+</pr>

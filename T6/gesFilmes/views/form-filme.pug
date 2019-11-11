@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .we-container
+    h1 Inserir novo filme
+    form.w3-container(action="/filmes" method="post")
+        label Titulo:
+        input.w3-input(type="text" name="title")
+        label Ano:
+        input.w3-input(type="text" name="year")
+        input.w3-input(type="submit" value="Adicionar")
+
+    footer.w3-container
+                    a(href='/filmes')  Voltar á página inicial
