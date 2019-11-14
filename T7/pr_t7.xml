@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Bruno/Desktop/MIEI/4ano/PLC/PRI/TPCs/T6/pr.dtd">
+<pr>
+    <meta>
+        <keyname>PRI-201920-T6</keyname>
+        <title>TPC nº7 de PRI</title>
+        <subtitle>API de dados - Obras</subtitle>
+        <bdate>11 de Novembro de 2019</bdate>
+        <edate>18 de Novembro de 2019</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage></homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A78997</identifier>
+            <name>Bruno José Infante de Sousa</name>
+            <email>a78997@alunos.uminho.pt</email>
+            <photo path="C:\Users\Bruno\Desktop\MIEI\4ano\PLC\PRI\TPCs\T7\foto.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>No trabalho prático nº7 foi pedida a implementação de uma API de dados para executar pedidos a uma base de dados de Obras Musicais.</p>
+        <p>Essa API teria que ser capaz de excutar pedidos em <i>'/obras'</i> e em <i>'/compositores'</i>. Assim sendo, foram criados 2 <i>routers</i>
+        distintos para executar os pedidos de cada rota.</p>
+        <p>Para os diferentes pedidos foram utilizadas <i>querys</i> e parâmetros <i>URL</i> para enviar as informações de filtragem necessárias para a BD.</p>
+        <p>A base de dados utilizada foi o MongoDB.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./pr.html">Página HTML - Manifesto</deliverable>
+        <deliverable path="./pr.dtd">Ficheiro DTD - Manifesto</deliverable>
+        <deliverable path="./pr.xsl">Stylesheet - Manifesto</deliverable>
+        <deliverable path="./pr_t7.xml">Documento XML - Manifesto</deliverable>
+        <deliverable path="./obras.json">Ficheiro JSON de importação da base de dados</deliverable>
+    </deliverables>
+</pr>

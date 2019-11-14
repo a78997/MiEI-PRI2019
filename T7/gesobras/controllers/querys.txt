@@ -1,0 +1,1 @@
+db.obras.aggregate([{$unwind: "$compositor"}, {$group: {_id: "$compositor"}}])
