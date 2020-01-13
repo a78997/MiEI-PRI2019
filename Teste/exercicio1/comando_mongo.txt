@@ -1,0 +1,2 @@
+mongoimport -d teste -c teste --jsonArray "C:\Users\Bruno\Desktop\MIEI\4ano\PLC\PRI\Teste\jcrpubs.json"
+

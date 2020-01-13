@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Bruno/Desktop/MIEI/4ano/PLC/PRI/Teste/pr.dtd">
+<pr>
+    <meta>
+        <keyname>PRI-201920-TESTE</keyname>
+        <title>Teste de PRI</title>
+        <subtitle>Ano 2019/2020</subtitle>
+        <bdate>13 de janeiro de 2020</bdate>
+        <edate>13 de janeiro de 2020</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage></homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A78997</identifier>
+            <name>Bruno José Infante de Sousa</name>
+            <email>a78997@alunos.uminho.pt</email>
+            <photo path="C:\Users\Bruno\Desktop\MIEI\4ano\PLC\PRI\Teste\foto.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>No primeiro exercício, utilizei mongoDB para realizar a persistência dos dados. Para isso, depois de corrigir algumas falhas do dataset,
+            utilizei o seguinte comando "mongoimport -d teste -c teste --jsonArray "C:\Users\Bruno\Desktop\MIEI\4ano\PLC\PRI\Teste\jcrpubs.json".
+        Após fazer a importação do dataset, criei um projeto em nodejs através do comando "npx express-generator --view=pug exercicio1", para criar o 
+        servidor capaz de responder às queries pedidas. Optei por criar apenas um router (apiRouter) e fazer a chamada de todos os pedidos neste mesmo router.
+        De igual forma, utilizei apenas um controller que contém todas as queries de interação com o Mongo.</p>
+        <p>Neste exercício tive dificuldade em fazer a ligação à base de dados e não consegui descobrir qual o problema. Contudo, desenvolvi as queries pedidas e,
+        à exceção da lista de autores por ordem alfabética, todas funcionam como era suposto. Uma vez que não consegui fazer a ligação servidor-mongo, recorri 
+        diretamente ao mongo para testar as queries.</p>
+        <p></p>
+        <p>No exercicio 2, utilizei o mesmo "npx express-generator --view=pug exercicio2" para criar o projeto. Utilizei a stylesheet do w3.css.</p>
+        <p>Quanto às respostas às 4 questões iniciais: </p>
+        <p> - Estão catalogadas 76 tipologias. Para descobrir isto, alterei o formato de saída para csv e recorri à contagem das linhas.</p>
+        <p> - 5 entidades pertencem à tipologia FSS. São elas GNR,PSP,PJ,SEF,SIS. </p>
+        <p> - Há 4 processos onde a tipologia FA participa como comunicador. Recorri à lista de processos em que intervem como participante e, uma vez que
+            era uma lista pequena, não foi necessário utilizar outro tipo de ferramenta para fazer a contagem. Os id's dos processos são  c650.10.019, c650.10.020, c650.10.212 e c650.10.213 .</p>
+        <p> - A entidade SEF pertence às tipologias AP e FSS. </p>
+        <p>Utilizei apenas um router (apiRouter) e faço todos os pedidos sobre ele. Recorri ainda ao axios para fazer os pedidos à API de dados.
+        Apenas consegui apresentar a página inicial com a listagem das tipologias, onde apresento a sigla e a designação de cada uma.
+        Tentei ainda fazer a página individual de cada tipologia, mas não consegui fazer a inserção correta do id de cada tipologia no URL para passar ao axios.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./pr.html">Página HTML - Manifesto</deliverable>
+        <deliverable path="./pr.dtd">Ficheiro DTD - Manifesto</deliverable>
+        <deliverable path="./pr.xsl">Stylesheet - Manifesto</deliverable>
+        <deliverable path="./pr_t7.xml">Documento XML - Manifesto</deliverable>
+        <deliverable path="./jcrpubs.json">Ficheiro JSON de importação da base de dados para o exercicio 1</deliverable>
+    </deliverables>
+</pr>

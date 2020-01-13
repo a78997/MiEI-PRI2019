@@ -1,0 +1,11 @@
+Quantos Tipologias estão catalogadas?
+R: 76
+
+Quantos Entidades pertencem à Tipologia tip_FSS?
+R: 5 entidades(GNR,PSP,PJ,SEF,SIS)
+
+Em que processos a tipologia tip_FA participa como Comunicador?
+R: 4(ids: c650.10.019, c650.10.020, c650.10.212, c650.10.213)
+
+A que tipologias pertence a entidade ent_SEF?
+R: AP e FSS

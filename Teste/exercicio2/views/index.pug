@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    .w3-container
+      h1 Lista de Tipologias - CLAV
+      table.w3-table-all
+        tr  
+            th Sigla    
+            th Designação
+        each t in lista
+            tr
+                td= t.sigla
+                td= t.designacao
